@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: var(--ff);
+    font-weight: var(--fw-normal);
+    font-size: var(--fs);
+    box-sizing: border-box;
+    transition: color var(--tran-1), background-color var(--tran-1);
+    outline: none;
+    border: none;
+
+    font-family: var(--ff);
+
+    /* Убираум синюю заливку при нажатии на телефонах*/
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    --ff: 'Open Sans', sans-serif;
+
+    --fs: 14px;
+    --fs-middle: 0.85rem;
+    --fs-small: 0.71rem;
+    --fs-big: 2.57rem;
+
+    --fw-bold: 600;
+    --fw-normal: 400;
+}
+body {
+
+}
+
+.container {
+    padding: 10px 0px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    height: fit-content;
+}
+.container-info {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.border-for-bottom{
+    border-radius: 0 0 20px 20px;
+}
+h1 {
+    font-size: var(--fs-big);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.15em;
+}
+.container-info-text {
+    padding: 20px 0;
+}

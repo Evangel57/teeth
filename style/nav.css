@@ -1,0 +1,79 @@
+.navigation {
+    padding: 20px;
+    background-image: url('../data/Frame 1.png');
+    background-attachment: fixed; 
+    background-size: cover; 
+    
+
+}
+
+.logo {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.menu {
+    margin: 27px auto 0;
+    max-width: 1200px;
+
+    position: relative;
+    height: 50px;
+    background-color: #0f3838;
+    border-radius: 8px;
+    font-size: 0;
+}
+.menu a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.menu .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+
+a {
+    width: 240px;
+}
+a:active {
+    background-color: #1abc9c!important;;
+}
+
+  .menu .start-home, a:nth-child(1):hover~.animation {
+    width: 240px;
+    left: 0;
+    background-color: #1abc9c;
+  }
+  nav .start-about, a:nth-child(2):hover~.animation {
+    width: 240px;
+    left: 240px;
+    background-color: #1abc9c;
+  }
+  nav .start-blog, a:nth-child(3):hover~.animation {
+    width: 240px;
+    background-color: #1abc9c;
+    left: 480px;
+  }
+  nav .start-portefolio, a:nth-child(4):hover~.animation {
+    width: 240px;
+    background-color: #1abc9c;
+    left: 720px;
+  }
+  nav .start-contact, a:nth-child(5):hover~.animation {
+    width: 240px;
+    background-color: #1abc9c;
+    left: 960px;
+  }
