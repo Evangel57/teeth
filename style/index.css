@@ -43,6 +43,10 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 20px;
 }
+.container-info-item {
+    padding: 20px 0;
+
+}
 .border-for-bottom{
     border-radius: 0 0 20px 20px;
 }
@@ -53,4 +57,32 @@ h1 {
 }
 .container-info-text {
     padding: 20px 0;
+}
+
+
+  #scrollToTopBtn {
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-size: 24px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #083220;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;}
+
+#scrollToTopBtn.show {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#scrollToTopBtn.hide {
+  opacity: 0;
+  visibility: hidden;
 }

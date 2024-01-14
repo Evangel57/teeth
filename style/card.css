@@ -1,0 +1,20 @@
+.container-info-item-text {
+    width: 45%;
+    max-width: 700px;
+}
+.container-info-item-img {
+    width: 45%;
+    max-width: 700px;
+    padding: 10px;
+}
+
+.container-info-item {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.rec-img {
+    border: 1px solid lightgray;
+    height: 100%;
+}
